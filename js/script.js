@@ -1,4 +1,5 @@
 // recupero gli elementi dal dom
+let container = document.getElementById('container');
 let items = document.getElementById('items');
 let thumbs = document.getElementById('thumbs');
 let prevButton = document.getElementById('prev');
@@ -36,7 +37,7 @@ const images = [
 
 // itero con il ciclo ogni prorpeità dell'array
 
-
+// ciclo che inserisce le immagini nell'elemento item
 images.forEach((image) => {
     console.log(image);
     items.innerHTML += 
@@ -44,8 +45,18 @@ images.forEach((image) => {
             <img src="${image.image}" alt="spiderman">
         </div>
     `
-
 })
+
+
+images.forEach((image) => {
+    console.log(image);
+    thumbs.innerHTML += 
+    `   <div id="thumbs" class="active">
+            <img src="${image.image}" alt="spiderman">
+        </div>
+    `
+})
+
 
 // definisco l'indice dell'elemnto in ordine di vis
 

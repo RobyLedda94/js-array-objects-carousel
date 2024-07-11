@@ -42,3 +42,4 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 5.recupero tutti gli elementi con classe active
 6.assegno la classe d-none a tutti gli elementi con classe active
 7.prendo il primo elemento dell'array card e rimuovo la classe d-none
+8.inserisco le immagini all'elemento thumbs
