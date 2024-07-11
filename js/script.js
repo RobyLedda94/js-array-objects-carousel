@@ -78,8 +78,14 @@ let nextButton = document.getElementById('next');
 nextButton.addEventListener('click', function(){
     // prima di incrementare aggiungo la classe d-none
     active[activeElement].classList.add('d-none');
+    
+    if (activeElement == images.length - 1){
+        activeElement = 0;
+    }
+    else{
     // incremento dell'inice delle immagini al bottone next
     activeElement++;
+    }
     // rimuovo la classe d-none
     active[activeElement].classList.remove('d-none');
 
