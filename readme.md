@@ -27,7 +27,10 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 
 <!-- PSEUDO CODICE -->
 
-1- creazione della struttura del markup statico
+1- creazione della struttura del markup statico x
 1.1 creazione container principale x
 1.2 creazione contenitore per l'mmagine grande x
 1.3 creazione contenitore per le immagini piccole x
+
+2-rendiamo la nostra pagina statica
+2.1- realizziamo l'array di oggetti
