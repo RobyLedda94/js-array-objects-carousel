@@ -51,7 +51,7 @@ images.forEach((image) => {
 images.forEach((image) => {
     console.log(image);
     thumbs.innerHTML += 
-    `   <div id="thumbs" class="active">
+    `   <div id="thumb" class="active">
             <img src="${image.image}" alt="spiderman">
         </div>
     `
