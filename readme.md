@@ -37,4 +37,4 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 2.3-recupero gli elementi dal dom x
 
 3.creo una variabile indice per tenere traccia dell'immagine da visualizzare
-4.iteriamo l'array di immagini con il forEach
+4.iteriamo l'array di immagini con il forEach  ``

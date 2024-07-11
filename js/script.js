@@ -37,9 +37,12 @@ const images = [
 let currentIndex = 0;
 
 // itero con il ciclo ogni prorpeità dell'array
-images.forEach((img, i) =>{
-    items.innerHTML +=`
-            <div id="item" class="active">
-                <img src="./img/${img[i].imge}">
-            </div>`
+images.forEach((image) => {
+    console.log(image);
+    items.innerHTML += 
+    `   <div id="item" class="active">
+            <img src="${image.image}" alt="spiderman">
+        </div>
+    `
+
 })
