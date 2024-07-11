@@ -2,8 +2,6 @@
 let container = document.getElementById('container');
 let items = document.getElementById('items');
 let thumbs = document.getElementById('thumbs');
-let prevButton = document.getElementById('prev');
-let nextButton = document.getElementById('next');
 
 
 
@@ -69,3 +67,20 @@ const active = document.querySelectorAll('.active');
 // recupero il primo elemento dell'array images e gli rimuovo la classe d-none
 
 active[activeElement].classList.remove('d-none');
+
+
+
+// bottoni recuperati dal dom
+let prevButton = document.getElementById('prev');
+let nextButton = document.getElementById('next');
+
+// metto i bottoni in attesa dell'evento click
+nextButton.addEventListener('click', function(){
+    // prima di incrementare aggiungo la classe d-none
+    active[activeElement].classList.add('d-none');
+    // incremento dell'inice delle immagini al bottone next
+    activeElement++;
+    // rimuovo la classe d-none
+    active[activeElement].classList.remove('d-none');
+
+})

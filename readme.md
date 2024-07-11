@@ -45,3 +45,8 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 8.inserisco le immagini all'elemento thumbs x
 9.recupero i bottoni dal dom 
 10.metto i bottoni in attesa dell'evento click
+
+10.1 al bottone next 
+    10.1.1 rimuovo la classe d-none
+    10.1.2 incremento il contatore
+    10.1.3 aggiungo la classe d-none
