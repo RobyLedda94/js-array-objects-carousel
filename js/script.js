@@ -1,3 +1,10 @@
+// recupero gli elementi dal dom
+let container = document.getElementById('container');
+let items = document.getElementById('items');
+let thumbs = document.getElementById('thumbs');
+
+
+// array di oggetti
 const images = [
     {
         image: 'img/01.webp',

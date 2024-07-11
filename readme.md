@@ -33,4 +33,5 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 1.3 creazione contenitore per le immagini piccole x
 
 2-rendiamo la nostra pagina statica
-2.1- realizziamo l'array di oggetti
+2.1- realizziamo l'array di oggetti x
+2.3-recupero gli elementi dal dom x
