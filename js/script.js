@@ -41,6 +41,10 @@ images.forEach((image) => {
     items.innerHTML += 
     `   <div id="item" class="active d-none">
             <img src="${image.image}">
+            <div class="infos">
+                <h3>${image.title}</h3>
+                <p>${image.text}</p>
+            </div>
         </div>
     `
 })
