@@ -40,7 +40,7 @@ images.forEach((image) => {
     console.log(image);
     items.innerHTML += 
     `   <div id="item" class="active d-none">
-            <img src="${image.image}" alt="spiderman">
+            <img src="${image.image}">
         </div>
     `
 })
@@ -50,7 +50,7 @@ images.forEach((image) => {
     console.log(image);
     thumbs.innerHTML += 
     `   <div id="thumb" class="active">
-            <img src="${image.image}" alt="spiderman">
+            <img src="${image.image}">
         </div>
     `
 })
@@ -86,6 +86,25 @@ nextButton.addEventListener('click', function(){
     // incremento dell'inice delle immagini al bottone next
     activeElement++;
     }
+    // rimuovo la classe d-none
+    active[activeElement].classList.remove('d-none');
+
+})
+
+// metto i bottoni in attesa dell'evento click
+prevButton.addEventListener('click', function(){
+    // prima di incrementare aggiungo la classe d-none
+    active[activeElement].classList.add('d-none');
+    
+
+    // decremento il contatore
+    activeElement--;
+
+    // condizione in cui se active element diventa negativo, lo riporto all'ultimo elemento dell'array images
+    if (activeElement < 0){
+        activeElement = images.length - 1;
+    }
+  
     // rimuovo la classe d-none
     active[activeElement].classList.remove('d-none');
 

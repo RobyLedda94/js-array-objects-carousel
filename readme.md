@@ -51,3 +51,12 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
     10.1.2 incremento il contatore
     10.1.3 aggiungo la classe d-none
     10.1.4 condizione di incremento 
+
+10.2 al bottone prev
+    10.1.1 aggiungo la classe d-none
+    10.1.2 decremento il contatore
+    10.1.3 condizione che riporta il contatore all'ultimo elemento dell'array images
+    10.1.4 rimuovo la classe d-none
+
+
+
