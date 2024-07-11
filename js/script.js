@@ -1,10 +1,13 @@
 // recupero gli elementi dal dom
-let container = document.getElementById('container');
 let items = document.getElementById('items');
 let thumbs = document.getElementById('thumbs');
+let prevButton = document.getElementById('prev');
+let nextButton = document.getElementById('next');
 
 
-// array di oggetti
+
+
+// array di oggetti che contiene i dati per il carosello
 const images = [
     {
         image: 'img/01.webp',
@@ -28,3 +31,12 @@ const images = [
         text: 'Marvel\'s Avengers is an epic, third-person, action-adventure game that combines an original, cinematic story with single-player and co-operative gameplay.',
     }
 ];
+
+// creo un indice per per la visualizazzione delle immagini
+
+let currentIndex = 0;
+
+// itero con il ciclo ogni prorpeità dell'array
+images.forEach((img, index) =>{
+
+})
