@@ -54,3 +54,7 @@ let activeElement = 0;
 // recupero gli elementi con classe active
 
 const active = document.querySelectorAll('.active');
+
+// recupero il primo elemento dell'array images e gli rimuovo la classe d-none
+
+active[activeElement].classList.remove('d-none');
