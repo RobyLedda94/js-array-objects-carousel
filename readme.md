@@ -38,8 +38,10 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 
 
 3.iteriamo l'array di immagini con il forEach  ``
-4.creo una variabile indice per tenere traccia dell'immagine da visualizzare
-5.recupero tutti gli elementi con classe active
-6.assegno la classe d-none a tutti gli elementi con classe active
-7.prendo il primo elemento dell'array card e rimuovo la classe d-none
-8.inserisco le immagini all'elemento thumbs
+4.creo una variabile indice per tenere traccia dell'immagine da visualizzare x
+5.recupero tutti gli elementi con classe active x
+6.assegno la classe d-none a tutti gli elementi con classe active x
+7.prendo il primo elemento dell'array card e rimuovo la classe d-none x
+8.inserisco le immagini all'elemento thumbs x
+9.recupero i bottoni dal dom 
+10.metto i bottoni in attesa dell'evento click
