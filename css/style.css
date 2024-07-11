@@ -37,6 +37,12 @@
 
 
 
+.d-none{
+    display: none;
+}
+
+
+
 /* classi di stile */
 
 #item img, #thumb img{

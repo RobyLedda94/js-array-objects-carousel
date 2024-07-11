@@ -32,17 +32,25 @@ const images = [
     }
 ];
 
-// creo un indice per per la visualizazzione delle immagini
 
-let currentIndex = 0;
 
 // itero con il ciclo ogni prorpeità dell'array
+
+
 images.forEach((image) => {
     console.log(image);
     items.innerHTML += 
-    `   <div id="item" class="active">
+    `   <div id="item" class="active d-none">
             <img src="${image.image}" alt="spiderman">
         </div>
     `
 
 })
+
+// definisco l'indice dell'elemnto in ordine di vis
+
+let activeElement = 0;
+
+// recupero gli elementi con classe active
+
+const active = document.querySelectorAll('.active');
