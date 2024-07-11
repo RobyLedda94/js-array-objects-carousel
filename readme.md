@@ -26,3 +26,5 @@ Aggiungere bottoni di start/stop e di inversione del meccanismo di autoplay.
 
 
 <!-- PSEUDO CODICE -->
+
+1- creazione della struttura del markup statico
