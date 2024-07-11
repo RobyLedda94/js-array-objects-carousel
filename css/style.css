@@ -23,3 +23,14 @@
     height: 400px;
     background-color: yellow;
 }
+
+
+.item{
+    height: 100%;
+}
+
+.thumb{
+    height: calc(100% / 5);
+    border: 1px solid black;
+}
+
